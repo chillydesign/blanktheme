@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/chillydesign/blanktheme#readme",
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
     "gulp-minify": "^1.0.0",
-    "gulp-sass": "^3.1.0",
-    "webpack": "^3.0.0"
+    "gulp-sass": "^3.2.1",
+    "webpack": "^3.11.0"
   }
 }

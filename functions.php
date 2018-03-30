@@ -563,6 +563,9 @@ function thumbnail_of_post_url( $post_id,  $size='large'  ) {
 }
 
 
+function add_scheme_to_url($url, $scheme = 'http://'){
+  return parse_url($url, PHP_URL_SCHEME) === null ?  $scheme . $url : $url;
+}
 
 
 
